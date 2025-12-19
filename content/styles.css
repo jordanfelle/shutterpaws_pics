@@ -11,6 +11,9 @@
 body {
   font-family: Avenir, sans-serif;
   margin: 0em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column
 }
 
 h1,
@@ -34,8 +37,8 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  flex: 1;
 }
 
 section {
@@ -100,7 +103,7 @@ section {
 }
 
 .header {
-  background-color: brown;
+  background-color: rgb(29, 0, 95);
   width: 100vw;
   height: 5em;
   display: flex;
@@ -116,7 +119,7 @@ section {
 }
 
 .footer {
-  background-color: brown;
+  background-color: rgb(29, 0, 95);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -133,7 +136,7 @@ section {
 
 .logo {
   margin-left: 1em;
-  height: 3em;
+  height: 2em;
 }
 
 .telegram-logo {
@@ -221,6 +224,7 @@ ev-day {
 
   .header a img {
     margin: 0px;
+    max-width: 90%
   }
 
   .column {
@@ -252,5 +256,6 @@ ev-day {
   .footer-logo {
     height: 2em;
     margin-bottom: 1em;
+    max-width: 70%;
   }
 }
