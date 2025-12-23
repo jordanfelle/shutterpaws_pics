@@ -13,7 +13,7 @@ body {
   margin: 0em;
   min-height: 100vh;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 h1,
@@ -224,7 +224,7 @@ ev-day {
 
   .header a img {
     margin: 0px;
-    max-width: 90%
+    max-width: 90%;
   }
 
   .column {
