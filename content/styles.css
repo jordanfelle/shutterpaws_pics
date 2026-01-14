@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #bdc69e;
 }
 
 h1,
@@ -125,7 +126,7 @@ bio h3 {
 }
 
 .header {
-  background-color: rgb(29, 0, 95);
+  background-color: rgb(20, 22, 20);
   width: 100vw;
   height: 5em;
   display: flex;
@@ -141,7 +142,7 @@ bio h3 {
 }
 
 .footer {
-  background-color: rgb(29, 0, 95);
+  background-color: rgb(20, 22, 20);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -158,7 +159,7 @@ bio h3 {
 
 .logo {
   margin-left: 1em;
-  height: 2em;
+  height: 4em;
 }
 
 .telegram-logo {
