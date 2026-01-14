@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "shutterpaws-pics",
   "compatibility_date": "2025-12-04",
-  "preview_urls": false,
+  "preview_urls": true,
   "assets": {
     "directory": "./content"
   }
